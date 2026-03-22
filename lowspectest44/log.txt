@@ -1,0 +1,301 @@
+umount: /tmp/weston: not mounted.
+umount: /tmp/godot: not mounted.
+Westonwrap 0.2.7.1
+gptokeyb is running, using it as a kill signal
+[GPTK]: Running in UINPUT output mode.
+/opt/system/Tools/PortMaster/device_info.txt: line 163: warning: command substitution: ignored null byte in input
+# V1.2 - dArkOS
+```bash
+DEVICE_INFO_VERSION=0.1.15
+PM_VERSION=2026.03.09-2312
+CFW_NAME=dArkOS
+CFW_VERSION=02062026
+CFW_GLIBC=241
+DEVICE_NAME=V1.2
+DEVICE_CPU=Cortex-A35
+DEVICE_ARCH=aarch64
+DEVICE_RAM=1
+DEVICE_HAS_ARMHF="Y"
+DEVICE_HAS_AARCH64="Y"
+DEVICE_HAS_X86="N"
+DEVICE_HAS_X86_64="N"
+DISPLAY_WIDTH=640
+DISPLAY_HEIGHT=480
+DISPLAY_ORIENTATION=0
+ASPECT_X=4
+ASPECT_Y=3
+ANALOG_STICKS=2
+```
+cat: /root/.config/.OS: No such file or directory
+/opt/system/Tools/PortMaster/control.txt: line 156: /tmp/gamecontrollerdb.txt: Permission denied
+/tmp/weston/westonwrap.sh: line 95: [: : integer expression expected
+Running in aarch64 mode
+Checking if gptokeyb is still running...
+rm: cannot remove '/tmp/fonts': No such file or directory
+rm: cannot remove '/tmp/share': No such file or directory
+System has GBM/DRM support, setting up libgbm and libdrm.
+Setting up Headless backend
+Setting virtual resolution to 640 x 480
+Setting up No-Op renderer
+Setting up Kiosk shell
+Found libGL at /lib/aarch64-linux-gnu/libGL.so.1
+Doesn't seem to be GL4ES, proceeding
+Setting up system Libs
+rm: cannot remove '/tmp/lib': No such file or directory
+Setting up crusty_x11egl
+Prep for CrustyGBM is required...
+Setting up Crusty references
+Setting up XDG_RUNTIME_DIR
+Starting Seatd
+00:00:00.000 [INFO] [seatd/seat.c:39] Created VT-bound seat seat0
+00:00:00.000 [INFO] [seatd/seatd.c:194] seatd started
+Checking if gptokeyb is still running...
+XWAYLAND_LD_LIBRARY_PATH=
+LD_LIBRARY_PATH=:/tmp/weston/lib_aarch64:
+LD_PRELOAD=
+SHELL=/bin/bash
+CFW_GLIBC=241
+CFW_VERSION=02062026
+SUDO_GID=1000
+CRUSTY_LIBGBM=/lib/aarch64-linux-gnu/libgbm.so.1
+DEVICE_HAS_AARCH64=Y
+DEVICE_HAS_ARMHF=Y
+WESTON_DATA_DIR=/tmp/weston/data
+SUDO_COMMAND=/usr/bin/env /tmp/weston/westonwrap.sh headless noop kiosk crusty_x11egl XDG_DATA_HOME=/roms/ports/lowspectest44/conf/ /tmp/godot/godot44.aarch64 --resolution 640x480 -f --rendering-driver opengl3_es --audio-driver ALSA --main-pack /roms/ports/lowspectest44/lowspectest44.pck
+DEVICE_ARCH=aarch64
+SUDO_USER=ark
+ESUDOKILL=-sudokill
+weston_shell=kiosk-shell.so
+PWD=/tmp/weston
+controlfolder=/opt/system/Tools/PortMaster
+DEVICE_CPU=Cortex-A35
+LOGNAME=root
+XDG_SESSION_TYPE=x11
+weston_dir=/tmp/weston
+SUDO_HOME=/home/ark
+weston_preload=
+game_dir=/roms/ports/lowspectest44
+westonmod_dir=/tmp/weston/lib_aarch64/weston
+HOME=/root
+ASPECT_X=4
+ASPECT_Y=3
+LANG=en_US.UTF-8
+ANALOG_STICKS=2
+ESUDOKILL2=-Z
+PM_RESOURCE_DIR=/opt/system/Tools/PortMaster/resources
+CRUSTY_LIBDRM=/lib/aarch64-linux-gnu/libdrm.so
+libweston_dir=/tmp/weston/lib_aarch64/libweston-14
+gllib_path=/tmp/weston/lib_aarch64/graphics/crusty_x11egl/
+CRUSTY_LIBEGL=/lib/aarch64-linux-gnu/libEGL.so
+ESUDO=sudo --preserve-env=SDL_GAMECONTROLLERCONFIG_FILE,DEVICE,param_device,HOTKEY,ANALOGSTICKS,SDL_KMSDRM_ORIENTATION,SDL_KMSDRM_ROTATION
+DISPLAY_WIDTH=640
+DEVICE_NAME=V1.2
+WESTON_HEADLESS_WIDTH=640
+SDL_GAMECONTROLLERCONFIG_FILE=/tmp/gamecontrollerdb.txt
+DEVICE_HAS_X86=N
+DEVICE_INFO_VERSION=0.1.15
+TERM=linux
+GPTOKEYB2=sudo --preserve-env=SDL_GAMECONTROLLERCONFIG_FILE,DEVICE,param_device,HOTKEY,ANALOGSTICKS,SDL_KMSDRM_ORIENTATION,SDL_KMSDRM_ROTATION env LD_PRELOAD=/opt/system/Tools/PortMaster/libinterpose.aarch64.so /opt/system/Tools/PortMaster/gptokeyb2 -Z
+SDL_VIDEO_EGL_DRIVER=libEGL.so
+USER=root
+DISPLAY_ORIENTATION=0
+PYSDL2_DLL_PATH=/usr/lib
+APP_LIBRARY_PATH=/tmp/weston/lib_aarch64/extra_wayland/:/tmp/weston/lib_aarch64
+WESTON_HEADLESS_HEIGHT=480
+gllib_preload=/tmp/weston/lib_aarch64/graphics/crusty_x11egl//libcrusty.so
+PM_PORTNAME=westonwrap
+DISPLAY_HEIGHT=480
+SHLVL=1
+GPTOKEYB=sudo --preserve-env=SDL_GAMECONTROLLERCONFIG_FILE,DEVICE,param_device,HOTKEY,ANALOGSTICKS,SDL_KMSDRM_ORIENTATION,SDL_KMSDRM_ROTATION /opt/system/Tools/PortMaster/gptokeyb -sudokill
+weston_backend=headless
+DEVICE_HAS_X86_64=N
+CRUSTY_LIBSDL=/lib/aarch64-linux-gnu/libSDL2.so
+WESTON_CONFIG=/tmp/weston/weston.ini
+XDG_RUNTIME_DIR=/tmp/weston_runtime
+WESTON_LIBEXEC_DIR=/tmp/weston/libexec
+PM_CAN_MOUNT=Y
+PM_VERSION=2026.03.09-2312
+weston_renderer=--renderer=noop
+DEVICE_RAM=1
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin
+directory=roms
+PM_FUNCS_VERSION=3
+SUDO_UID=1000
+WESTON_MODULE_MAP=x11-backend.so=/tmp/weston/lib_aarch64/libweston-14/x11-backend.so;wayland-backend.so=/tmp/weston/lib_aarch64/libweston-14/wayland-backend.so;drm-backend.so=/tmp/weston/lib_aarch64/libweston-14/drm-backend.so;headless-backend.so=/tmp/weston/lib_aarch64/libweston-14/headless-backend.so;gl-renderer.so=/tmp/weston/lib_aarch64/libweston-14/gl-renderer.so;kiosk-shell.so=/tmp/weston/lib_aarch64/weston/kiosk-shell.so;desktop-shell.so=/tmp/weston/lib_aarch64/weston/desktop-shell.so;fullscreen-shell.so=/tmp/weston/lib_aarch64/weston/fullscreen-shell.so;xwayland.so=/tmp/weston/lib_aarch64/libweston-14/xwayland.so;
+MAIL=/var/mail/root
+CFW_NAME=dArkOS
+XKB_CONFIG_ROOT=/tmp/share/xkb
+PM_SCRIPTNAME=westonwrap.sh
+OLDPWD=/roms/ports/lowspectest44
+_=/usr/bin/printenv
+Starting Weston
+./wp_weston: /tmp/weston/lib_aarch64/libxkbcommon.so.0: no version information available (required by /tmp/weston/lib_aarch64/libweston-14.so.0)
+Date: 2026-03-22 EDT
+[08:06:07.187] weston 13.0.90
+               https://wayland.freedesktop.org
+               Bug reports to: https://gitlab.freedesktop.org/wayland/weston/issues/
+               Build: 13.0.0-110-g215cceb4+
+[08:06:07.188] Command line: ./wp_weston -c /tmp/weston/weston.ini -B headless --renderer=noop --shell=kiosk-shell.so -i0 -Swayland-5 --xwayland
+[08:06:07.188] OS: Linux, 4.4.189, #62 SMP Sat Dec 13 08:49:45 CST 2025, aarch64
+[08:06:07.188] Flight recorder: enabled
+[08:06:07.188] warning: XDG_RUNTIME_DIR "/tmp/weston_runtime" is not configured
+correctly.  Unix access mode must be 0700 (current mode is 0755),
+and must be owned by the user UID 0 (current owner is UID 0).
+Refer to your distribution on how to get it, or
+http://www.freedesktop.org/wiki/Specifications/basedir-spec
+on how to implement it.
+[08:06:07.191] Using config file '/tmp/weston/weston.ini'
+[08:06:07.192] Output repaint window is 7 ms maximum.
+[08:06:07.197] Loading module '/tmp/weston/lib_aarch64/libweston-14/headless-backend.so'
+[08:06:07.299] Trying libseat launcher...
+00:00:00.791 [INFO] [seatd/server.c:146] New client connected (pid: 1731, uid: 0, gid: 0)
+00:00:00.791 [INFO] [seatd/seat.c:169] Added client 1 to seat0
+00:00:00.791 [INFO] [seatd/seat.c:459] Opened client 1 on seat0
+[08:06:07.300] [libseat/libseat.c:73] Seat opened with backend 'seatd'
+[08:06:07.304] [libseat/backend/seatd.c:212] Enabling seat
+[08:06:07.304] libseat: session control granted
+[08:06:07.304] 0x7fdd9b2e70 0x55b4dc3ee0 0x55b4dce290 seat0 0x7fa8a8b678
+[08:06:07.336] event0  - rk8xx_pwrkey: is tagged by udev as: Keyboard
+[08:06:07.337] event0  - rk8xx_pwrkey: device is a keyboard
+[08:06:07.343] event2  - GO-Super Gamepad: is tagged by udev as: Joystick
+[08:06:07.343] event2  - GO-Super Gamepad: device is a joystick or a gamepad, ignoring
+[08:06:07.354] event2  - not using input device '/dev/input/event2'
+[08:06:07.358] event3  - rk29-keypad: is tagged by udev as: Keyboard
+[08:06:07.358] event3  - rk29-keypad: device is a keyboard
+[08:06:07.363] event1  - rockchip,rk817-codec Headphones: is tagged by udev as: Switch
+[08:06:07.374] event1  - not using input device '/dev/input/event1'
+[08:06:07.377] event4  - Fake Keyboard: is tagged by udev as: Keyboard Mouse
+[08:06:07.378] event4  - Fake Keyboard: device is a pointer
+[08:06:07.378] event4  - Fake Keyboard: device is a keyboard
+[08:06:07.479] libinput: configuring device "rk8xx_pwrkey".
+[08:06:07.480] libinput: configuring device "rk29-keypad".
+[08:06:07.480] libinput: configuring device "Fake Keyboard".
+[08:06:07.480] Registered plugin API 'weston_windowed_output_api_v2' of size 16
+[08:06:07.480] Color manager: no-op
+                 protocol support: no
+[08:06:07.480] Output 'headless' attempts EOTF mode: SDR
+[08:06:07.480] Output 'headless' using color profile: stock sRGB color profile
+[08:06:07.480] associating input device event0 with output headless (none by udev)
+[08:06:07.480] associating input device event3 with output headless (none by udev)
+[08:06:07.480] associating input device event4 with output headless (none by udev)
+[08:06:07.480] Output 'headless' enabled with head(s) headless
+[08:06:07.481] Compositor capabilities:
+               arbitrary surface rotation: no
+               screen capture uses y-flip: no
+               cursor planes: no
+               arbitrary resolutions: no
+               view mask clipping: no
+               explicit sync: no
+               color operations: no
+               presentation clock: CLOCK_MONOTONIC_RAW, id 4
+               presentation clock resolution: 0.000000001 s
+[08:06:07.487] Loading module '/tmp/weston/lib_aarch64/weston/kiosk-shell.so'
+[08:06:07.491] Loading module '/tmp/weston/lib_aarch64/libweston-14/xwayland.so'
+[08:06:07.507] Registered plugin API 'weston_xwayland_v3' of size 32
+[08:06:07.507] Registered plugin API 'weston_xwayland_surface_v1' of size 16
+[08:06:07.508] xserver listening on display :0
+Checking if gptokeyb is still running...
+Running your command XDG_DATA_HOME=/roms/ports/lowspectest44/conf/ /tmp/godot/godot44.aarch64 --resolution 640x480 -f --rendering-driver opengl3_es --audio-driver ALSA --main-pack /roms/ports/lowspectest44/lowspectest44.pck
+---------------------------------------------------------------------------------------------------
+Crusty loaded by /tmp/godot/godot44.aarch64
+Started initializing...
+Version 0.4 built on 2025-04-10 22:02:02 with options: X11EGL_FRONTEND SDL2_BACKEND CONTROLLER_HOOK CURSOR CURSOR_X EGL_LOADER SDL_LOADER 
+Initializing EGL Loader
+Done initializing EGL Loader. Hooked functions: 0 / Passed through: 34
+Initializing SDL Loader
+Done initializing SDL Loader. Hooked functions: 0 / Passed through: 18
+Done initializing.
+xkbcommon: ERROR: couldn't find a Compose file for locale "en_US.UTF-8" (mapped to "en_US.UTF-8")
+[08:06:09.207] YO WHAT ::/tmp/weston/lib_aarch64:
+[08:06:09.207] launching 'bin/Xwayland'
+(WW) Option "-listen" for file descriptors is deprecated
+Please use "-listenfd" instead.
+(WW) Option "-listen" for file descriptors is deprecated
+Please use "-listenfd" instead.
+glamor: 'wl_drm' not supported
+Missing Wayland requirements for glamor GBM backend
+Failed to initialize glamor, falling back to sw
+[08:06:11.486] xfixes version: 5.0
+[08:06:11.757] created wm, root 74
+Godot Engine v4.4.stable.official.4c311cbee - https://godotengine.org
+SDL2 Window Resolution: 640 480
+Failed to get attribute Double Buffer: OpenGL error: GL_INVALID_ENUM
+Failed to get attribute Accum Red Size: OpenGL error: GL_INVALID_ENUM
+Failed to get attribute Accum Green Size: OpenGL error: GL_INVALID_ENUM
+Failed to get attribute Accum Blue Size: OpenGL error: GL_INVALID_ENUM
+Failed to get attribute Accum Alpha Size: OpenGL error: GL_INVALID_ENUM
+Crusty's SDL2 backend is running with these attributes: 
+Red Size: 8
+Green Size: 8
+Blue Size: 8
+Alpha Size: 8
+Buffer Size: 32
+Depth Size: 24
+Stencil Size: 8
+Multisample Buffers: 0
+Multisample Samples: 0
+Context Major Version: 3
+Context Minor Version: 2
+Context Profile Mask: 4
+
+
+
+
+
+Returned 1 configs:
+Config attributes:
+  EGL_BUFFER_SIZE: 32
+  EGL_RED_SIZE: 8
+  EGL_GREEN_SIZE: 8
+  EGL_BLUE_SIZE: 8
+  EGL_ALPHA_SIZE: 8
+  EGL_DEPTH_SIZE: 24
+  EGL_STENCIL_SIZE: 8
+  EGL_SAMPLES: 0
+  EGL_SURFACE_TYPE: 2
+  EGL_RENDERABLE_TYPE: 69
+
+X11 backed surface requested
+WARNING: Started the engine as `root`/superuser. This is a security risk, and subsystems like audio may not work correctly.
+Set the environment variable `GODOT_SILENCE_ROOT_WARNING` to 1 to silence this warning.
+     at: setup2 (main/main.cpp:3181)
+Terminated
+Westonwrap 0.2.7.1
+gptokeyb is running, using it as a kill signal
+/opt/system/Tools/PortMaster/device_info.txt: line 163: warning: command substitution: ignored null byte in input
+# V1.2 - dArkOS
+```bash
+DEVICE_INFO_VERSION=0.1.15
+PM_VERSION=2026.03.09-2312
+CFW_NAME=dArkOS
+CFW_VERSION=02062026
+CFW_GLIBC=241
+DEVICE_NAME=V1.2
+DEVICE_CPU=Cortex-A35
+DEVICE_ARCH=aarch64
+DEVICE_RAM=1
+DEVICE_HAS_ARMHF="Y"
+DEVICE_HAS_AARCH64="Y"
+DEVICE_HAS_X86="N"
+DEVICE_HAS_X86_64="N"
+DISPLAY_WIDTH=640
+DISPLAY_HEIGHT=480
+DISPLAY_ORIENTATION=0
+ASPECT_X=4
+ASPECT_Y=3
+ANALOG_STICKS=2
+```
+cat: /root/.config/.OS: No such file or directory
+/opt/system/Tools/PortMaster/control.txt: line 156: /tmp/gamecontrollerdb.txt: Permission denied
+/tmp/weston/westonwrap.sh: line 95: [: : integer expression expected
+Running in aarch64 mode
+Cleaning up
+(EE) failed to read Wayland events: Broken pipe
+00:12:52.876 [INFO] [seatd/client.c:465] Client disconnected
+pkill: pattern that searches for process name longer than 15 characters will result in zero matches
+Try `pkill -f' option to match against the complete command line.
+00:12:52.929 [INFO] [seatd/seat.c:400] No clients on seat0 to activate
+rm: cannot remove '/tmp/weston_runtime/wayland-0.lock': No such file or directory
+/opt/system/Tools/PortMaster/funcs.txt: line 140:  1526 Killed                  $GPTOKEYB "$godot_executable" -c "$GAMEDIR/$gptk_filename"
+/opt/system/Tools/PortMaster/funcs.txt: line 140: 15613 Killed                  $ESUDO pkill -9 -f gptokeyb
+/opt/system/Tools/PortMaster/funcs.txt: line 140: 15620 Killed                  $ESUDO pkill -9 -f gptokeyb2
